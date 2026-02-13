@@ -1,0 +1,112 @@
+
+/*@font-face{ 
+src: url("../fonts/");
+
+}               <<< para importar fontes 
+*/
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{ 
+    background-color: #0E1014;
+
+}
+h1,p,a{
+    color: #FFFFFF;
+
+}
+
+
+.img-logo{
+    
+    margin-left: 150px;
+    margin-top: 50px;
+    width: 200px;
+    height: auto;
+
+}
+h1{
+    font-family:"Unbounded",arial;
+    font-size:64px;
+    text-align: center;
+    margin: 40px auto;
+    
+
+}
+p{
+    text-align: center;
+    font-size: 24px;
+    margin-top: 20px;
+    font-family: "poppins";
+    width: 792px;
+    margin: 0px auto;
+}
+.img-cell{
+    width: 700px;
+    display: block;
+    align-items: center;
+    max-width: 100%;
+    margin: 0  auto;
+    background-color: #0b0b0e; 
+    background-image: radial-gradient(
+    ellipse at center, 
+    #8233E8 -50%,  
+    #0E1014 47%  );
+
+}
+img{
+    object-fit: cover;
+}
+
+.container {
+    text-align: center; 
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    margin: 40px auto;
+    border-bottom: #FFFFFF;
+    background:#9747FF;
+    padding: 10px 40px;
+    border: none;
+    font-size: 20px;
+    border-radius: 40px;
+    cursor: pointer;
+    font-family: "poppins";
+}
+a:hover{
+    background-color:#8233E8;
+    transform: translateY(-2px);
+    
+}
+
+
+@media (max-width:768px){
+    
+    .img-logo{margin: 65 0px 0px 60px;}
+    .p{
+        width: 648px;
+    }
+
+}
+
+@media (max-width:428px){
+
+.img-logo{
+    margin:100px 0px 0px 16px;
+}
+h1{
+    font-size: 47px;
+}
+p{ 
+    font-size: 20px;
+    margin: 24px 17px 0px 17px;
+    width: auto;
+}
+}
